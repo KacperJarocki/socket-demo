@@ -5,7 +5,7 @@ Demo websocket app for presentation
 
 cd server \
 npm install \
-node . \
+node . 
 
 cd ..  \ 
 cd app  \ 
