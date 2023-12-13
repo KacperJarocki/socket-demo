@@ -12,7 +12,7 @@ socket.on('chat', text => {
 document.querySelector('button').onclick = () => {
 
     const text = document.querySelector('input').value;
-    socket.emit('message', text)
+    socket.emit('chat', text)
     
 }
 
