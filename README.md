@@ -10,5 +10,5 @@ node .
 cd ..
 \
 cd app \
-open index.html \
+open index.html
 
