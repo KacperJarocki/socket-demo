@@ -1,7 +1,7 @@
 
 const socket = io('ws://localhost:8080');
 
-socket.on('message', text => {
+socket.on('chat', text => {
 
     const el = document.createElement('li');
     el.innerHTML = text;
