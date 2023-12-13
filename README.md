@@ -6,7 +6,9 @@ Demo websocket app for presentation
 cd server \
 npm install \
 node . 
+\
+cd ..
+\
+cd app \
+open index.html \
 
-cd ..  \ 
-cd app\ 
-open index.html\
