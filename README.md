@@ -8,5 +8,5 @@ npm install \
 node . 
 
 cd ..  \ 
-cd app  \ 
-open index.html  \
+cd app\ 
+open index.html\
