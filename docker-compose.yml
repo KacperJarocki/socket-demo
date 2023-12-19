@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  server:
+    restart: always
+    container_name: server 
+    build: ./server
+    ports:
+      - "8080:8080"
+  client:
+    restart: always
+    container_name: client 
+    build: ./app
+    ports:
+      - "80:80"
+    depends_on:
+      - server 

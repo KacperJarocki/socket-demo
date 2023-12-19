@@ -2,7 +2,7 @@
 Demo websocket app for presentation
 
 ## Want to try?
-
+### Without docker installed
 cd server \
 npm install \
 node . 
@@ -10,5 +10,11 @@ node .
 cd ..
 \
 cd app \
-open index.html
+open index.html \
+
+### With docker installed
+On root directory write: \ 
+
+docker-compose up --bulid \
+
 

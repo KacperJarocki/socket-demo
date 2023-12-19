@@ -1,5 +1,5 @@
-
-const socket = io('ws://localhost:8080');
+const address = "localhost" 
+const socket = io('ws://'+address+':8080');
 
 socket.on('chat', text => {
 
