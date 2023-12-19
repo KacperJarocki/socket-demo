@@ -3,7 +3,7 @@ Demo websocket app for presentation
 
 ## Want to try?
 ### Without docker installed
-On root directory write:
+On project root directory write:
 
     cd server 
     npm install 
@@ -13,7 +13,7 @@ On root directory write:
     open index.html 
 
 ### With docker installed
-On root directory write:  
+On project root directory write:  
 
     docker-compose up --bulid
 
