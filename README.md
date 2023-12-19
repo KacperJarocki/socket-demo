@@ -15,6 +15,6 @@ open index.html
 ### With docker installed
 On root directory write:  
 
-_ docker-compose up --bulid _
+    docker-compose up --bulid
 
 
