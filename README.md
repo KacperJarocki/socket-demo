@@ -10,11 +10,11 @@ node .
 cd ..
 \
 cd app \
-open index.html \
+open index.html 
 
 ### With docker installed
-On root directory write: \ 
+On root directory write:  
 
-docker-compose up --bulid \
+_ docker-compose up --bulid _
 
 
